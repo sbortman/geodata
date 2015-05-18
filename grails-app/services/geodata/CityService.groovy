@@ -34,7 +34,7 @@ class CityService
             name: record[0],
             country: record[1],
             population: record[2]?.toInteger(),
-            capital: record[3] == 'T',
+            capital: record[3] == 'Y',
             longitude: record[4]?.toDouble(),
             latitude: record[5]?.toDouble()
         )
